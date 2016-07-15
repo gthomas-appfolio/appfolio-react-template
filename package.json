@@ -4,6 +4,7 @@
   "description": "Appfolio template for ES2015, Webpack, Babel, and testing tools.",
   "author": "Appfolio, Inc.",
   "license": "MIT",
+  "main": "dev_server.js",
   "scripts": {
     "dist": "webpack -p",
     "lint": "eslint src; exit 0",
