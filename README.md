@@ -5,6 +5,8 @@
 
 This template can be used directly for the creation of new JavaScript apps in APM.
 
+#### Includes
+
 - ES2015 using [Webpack](https://webpack.github.io/) and [Babel](https://babeljs.io/)
 - CSS with autoprefixing using [PostCSS](http://postcss.org/) 
 - SCSS using [sass-loader](https://github.com/jtangelder/sass-loader) 
@@ -13,6 +15,10 @@ This template can be used directly for the creation of new JavaScript apps in AP
 - Headless browser tests using [Mocha](https://mochajs.org/) and [Nightmare](http://www.nightmarejs.org/)
 - Linting using [ESLint](http://eslint.org/)
 - Code coverage using [nyc](https://github.com/istanbuljs/nyc)
+
+#### Using
+The sample code under `/src` is a basic vanilla JS example to ensure bundling works correctly.
+No UI or other frameworks have been included and need to be added by you.
 
 Can be forked directly, but also used as the base template of [generator-appfolio-js](https://github.com/gthomas-appfolio/generator-appfolio-js) Yeoman generator.
 
@@ -27,7 +33,7 @@ Can be forked directly, but also used as the base template of [generator-appfoli
     npm run
 Open [http://localhost:8080](http://localhost:8080) in browser
 
-- Uses [hot-module-replacement](https://webpack.github.io/docs/hot-module-replacement.html) to automatically rebuild and reload modules.
+- Uses [hot-module-replacement](https://webpack.github.io/docs/hot-module-replacement.html) to automatically rebuild and reload modules as the files under `src` are modified.
 
 ### Test
 
