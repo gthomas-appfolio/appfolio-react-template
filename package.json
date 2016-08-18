@@ -1,7 +1,7 @@
 {
-  "name": "appfolio-js-template",
-  "version": "0.2.0",
-  "description": "Appfolio template for ES2015, Webpack, Babel, and testing tools.",
+  "name": "appfolio-react-template",
+  "version": "0.1.0",
+  "description": "Appfolio template for ES2015, React, Webpack, and Babel.",
   "author": "Appfolio, Inc.",
   "license": "MIT",
   "main": "dev_server.js",

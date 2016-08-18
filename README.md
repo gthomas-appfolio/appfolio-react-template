@@ -1,13 +1,14 @@
-# Appfolio JS app template
+# Appfolio React app template
 
-![Dependency Tracker](https://img.shields.io/david/gthomas-appfolio/appfolio-js-template.svg "Dependency Tracker") 
-![Dependency Tracker](https://img.shields.io/david/dev/gthomas-appfolio/appfolio-js-template.svg "Dev Dependency Tracker")
+![Dependency Tracker](https://img.shields.io/david/gthomas-appfolio/appfolio-react-template.svg "Dependency Tracker") 
+![Dependency Tracker](https://img.shields.io/david/dev/gthomas-appfolio/appfolio-react-template.svg "Dev Dependency Tracker")
 
-This template can be used directly for the creation of new JavaScript apps in APM.
+This template can be used directly for the creation of new React apps in APM.
 
 #### Includes
 
 - ES2015 using [Webpack](https://webpack.github.io/) and [Babel](https://babeljs.io/)
+- [React](https://facebook.github.io/react/) and [Babel](https://babeljs.io/)
 - CSS with autoprefixing using [PostCSS](http://postcss.org/) 
 - SCSS using [sass-loader](https://github.com/jtangelder/sass-loader) 
 - Development server and reloading using [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) and [webpack-hot-middleware](https://github.com/glenjamin/webpack-hot-middleware)
@@ -17,10 +18,9 @@ This template can be used directly for the creation of new JavaScript apps in AP
 - Code coverage using [nyc](https://github.com/istanbuljs/nyc)
 
 #### Using
-The sample code under `/src` is a basic vanilla JS example to ensure bundling works correctly.
-No UI or other frameworks have been included and need to be added by you.
+The sample code under `/src` is a basic React example to ensure bundling works correctly.
 
-Can be forked directly, but also used as the base template of [generator-appfolio-js](https://github.com/gthomas-appfolio/generator-appfolio-js) Yeoman generator.
+Can be forked directly, but also used as the base template of [generator-appfolio-react](https://github.com/gthomas-appfolio/generator-appfolio-react) Yeoman generator.
 
 ----
 
