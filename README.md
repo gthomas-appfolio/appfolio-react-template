@@ -5,6 +5,13 @@
 
 This template can be used directly for the creation of new React apps in APM.
 
+## TODO:
+
+- Add React, <App />
+- Webpack, Babel config, react-hmre (or equivalent)
+- CSS Modules
+- APM bundle, naming, directories
+
 #### Includes
 
 - ES2015 using [Webpack](https://webpack.github.io/) and [Babel](https://babeljs.io/)
