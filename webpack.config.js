@@ -21,7 +21,7 @@ module.exports = {
         exclude: /node_modules/,
         include: __dirname
       },
-      { test: /\.s?css$/, loader: 'style!css!postcss!sass' }
+      { test: /\.s?css$/, loader: 'style!css?modules&camelCase&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss!sass' }
     ]
   },
   postcss: [
