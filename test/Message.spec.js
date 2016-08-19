@@ -1,14 +1,18 @@
 /* eslint-env mocha */
 
+import 'jsdom-global/register';
+import React from 'react';
 import assert from 'assert';
-import Message from '../src/Message.js';
+import { mount, shallow } from 'enzyme';
+
+import Message from '../src/components/Message.js';
 
 /**
  * Sample unit test.
  */
-describe('Message', () => {
-  const message = new Message();
+describe('<Message />', () => {
+  const message = mount(<Message />);
   it('should render correctly', () => {
-    assert.equal(message.render(), 'Hello Appfolio!');
+    assert.equal(message.text(), 'Hello Appfolio!');
   });
 });
