@@ -19,7 +19,12 @@ module.exports = {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
-        include: __dirname
+        include: __dirname,
+        query: {
+          babelrc: false,
+          presets: [['es2015', { modules: false }], 'react', 'stage-1', 'stage-2'],
+          plugins: ['transform-object-assign']
+        }
       },
       {
         test: /\.s?css$/,
