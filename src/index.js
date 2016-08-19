@@ -1,8 +1,11 @@
-import 'babel-polyfill';
-import Message from './Message.js';
+import React from 'react';
+import { render } from 'react-dom';
+import App from './app';
 
-const message = new Message();
-document.getElementById('main').innerHTML = `<h1>${message.render()}</h1>`;
+render(
+  <App />,
+  document.getElementById('main')
+);
 
 if (module.hot) {
   module.hot.accept();
