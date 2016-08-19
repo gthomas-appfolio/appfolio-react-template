@@ -5,9 +5,9 @@
 
 This template can be used directly for the creation of new React apps in APM.
 
-## TODO:
-- APM bundle, naming, directories
-- Enable treeshaking
+**TODO:** 
+- Re-enable Babel treeshaking
+- Add APM bundle, naming, directories
 
 #### Includes
 
@@ -16,7 +16,7 @@ This template can be used directly for the creation of new React apps in APM.
 - CSS with autoprefixing using [PostCSS](http://postcss.org/) 
 - SCSS using [sass-loader](https://github.com/jtangelder/sass-loader) 
 - Development server and reloading using [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) and [webpack-hot-middleware](https://github.com/glenjamin/webpack-hot-middleware)
-- Unit tests using [Mocha](https://mochajs.org/) and [assert](https://nodejs.org/api/assert.html)
+- Unit tests using [Mocha](https://mochajs.org/), [enzyme](http://airbnb.io/enzyme/index.html), and [assert](https://nodejs.org/api/assert.html)
 - Headless browser tests using [Mocha](https://mochajs.org/) and [Nightmare](http://www.nightmarejs.org/)
 - Linting using [ESLint](http://eslint.org/)
 - Code coverage using [nyc](https://github.com/istanbuljs/nyc)
@@ -43,7 +43,7 @@ Open [http://localhost:8080](http://localhost:8080) in browser
 
     npm test
 
-- Runs unit tests using [Mocha](https://mochajs.org/)
+- Runs unit tests using [Mocha](https://mochajs.org/) and [enzyme](http://airbnb.io/enzyme/index.html),
 - Runs headless browser tests using Mocha and [Nightmare](http://www.nightmarejs.org/)
 - Shows code coverage using [nyc/Istanbul](https://github.com/istanbuljs/nyc).
   A coverage report will also be written in the `./coverage/` directory.
@@ -59,5 +59,4 @@ Open [http://localhost:8080](http://localhost:8080) in browser
 ### Contributors
 - Gary Thomas
 - Li Zhang
-- Michael Jewell
-- Aaron Panchal
+- Tim Connor
