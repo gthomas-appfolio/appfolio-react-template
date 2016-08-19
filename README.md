@@ -6,10 +6,8 @@
 This template can be used directly for the creation of new React apps in APM.
 
 ## TODO:
-
-- Add React, <App /> container, component example
-- Webpack, Babel config, react-hmre (or equivalent)
 - APM bundle, naming, directories
+- Enable treeshaking
 
 #### Includes
 
