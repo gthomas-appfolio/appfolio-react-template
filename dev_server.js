@@ -17,7 +17,7 @@ const webpackHotMiddleware = require('webpack-hot-middleware');
 const compiler = webpack(config);
 compiler.apply(new DashboardPlugin());
 app.use(webpackDevMiddleware(compiler, { publicPath: config.output.publicPath, quiet: true }));
-app.use(webpackHotMiddleware(compiler, { log: () => {} } ));
+app.use(webpackHotMiddleware(compiler, { log: () => {} }));
 
 const port = 8080 || process.env.port;
 app.listen(port, () => console.log(`Listening on ${port}`));
