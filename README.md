@@ -5,10 +5,6 @@
 
 This template can be used directly for the creation of new React apps in APM.
 
-**TODO:** 
-- Re-enable Babel treeshaking
-- Add APM bundle, naming, directories
-
 #### Includes
 
 - ES2015 using [Webpack](https://webpack.github.io/) and [Babel](https://babeljs.io/)
