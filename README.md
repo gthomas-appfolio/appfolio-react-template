@@ -1,13 +1,8 @@
 # Appfolio React app template
 
 ![Dependency Tracker](https://img.shields.io/david/gthomas-appfolio/appfolio-react-template.svg "Dependency Tracker") 
-![Dependency Tracker](https://img.shields.io/david/dev/gthomas-appfolio/appfolio-react-template.svg "Dev Dependency Tracker")
 
 This template can be used directly for the creation of new React apps in APM.
-
-**TODO:** 
-- Re-enable Babel treeshaking
-- Add APM bundle, naming, directories
 
 #### Includes
 
