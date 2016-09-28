@@ -9,7 +9,8 @@
     "dist": "webpack -p",
     "lint": "eslint src; exit 0",
     "start": "webpack-dashboard -- node dev_server.js",
-    "test": "nyc --reporter text --reporter lcov mocha --recursive --timeout 10000 --compilers js:babel-register --require ignore-styles"
+    "test": "nyc --reporter text --reporter lcov mocha --recursive --timeout 10000 --compilers js:babel-register --require ignore-styles",
+    "watch": "npm run dist -- --watch"
   },
   "dependencies": {
     "babel-polyfill": "~6.13.0",
