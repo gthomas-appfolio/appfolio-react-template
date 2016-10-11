@@ -10,3 +10,4 @@ dist
 docs
 Icon?
 node_modules
+npm-debug.log
